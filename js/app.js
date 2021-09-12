@@ -73,7 +73,7 @@ equals.addEventListener('click', () => {
   reset(result);
   
   if (result !== notDivideToNull) {
-    result = Number.isInteger(parseFloat(result)) ? addSpace(result) : result;
+    result = result.includes('.') ? result : addSpace(result);
   }
   
   field.dispatchEvent(eventCreator(result));
@@ -126,5 +126,4 @@ export {
 /**
  * TODO
  * 1) Check the font size of the second operand
- * 2) Font in exponential numbers
  */

@@ -72,9 +72,17 @@ input[type=number]::-webkit-inner-spin-button {
   border: none;
 }
 
+.btn:not(.eql):hover {
+  background-color: #039fb8;
+}
+
 .eql {
   grid-column: 3 / 5;
   background-color: var(--equl-btn);
+}
+
+.eql:hover {
+  background-color: #dd0239;
 }
 
 canvas {
