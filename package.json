@@ -1,0 +1,7 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Alexey Formanyuk",
+  "license": "MIT"
+}
